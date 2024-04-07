@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: gray;
+    width:100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 200px;
+    align-items: center;
+}
+.logo{
+    text-decoration: none;
+    color:rgb(14, 233, 14);
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.n a{
+    text-decoration: none;
+    color:rgb(14, 233, 14);
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+.n a:hover{
+    color: blueviolet;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width:100%;
+    min-height: 100vh;
+    background: url(images/markus-spiske-iar-afB0QQw-unsplash.jpg);
+    background-size: cover;
+    align-items: center;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.main h2{
+    color:white;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top:10px ;
+    color: rgb(14, 233, 14);
+    font-size: 3em;
+    font-weight: 600em;
+}
+.main h3{
+    color:white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    background-color: rgb(14, 233, 14);
+    display: inline-block;
+    color: antiquewhite;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 1s;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.main-btn:hover{
+    background-color: rgb(6, 109, 6);
+    transform: scale(1.1);
+}
+.social-icons a{
+    color: #fff;
+    font-size: 1.7em;
+    padding:30px
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    color:rgb(14, 233, 14);
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: aliceblue;
+    width :21.25em;
+    padding:25px;
+    margin: 15px;
+    transition: 1s;
+    box-shadow: 0px 5px 25px rgba(1 1 1 / 15%)  ;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color:rgb(14, 233, 14);
+    font-size: 8em;
+    text-align: center;
+}
+.info h3{
+    color:rgb(14, 233, 14);
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 700;
+    margin: 10px;
+}
+.info p{
+    text-align: center;
+    color:rgb(58, 111, 79);
+}
+
+.projects{
+    background-color: black;
+}
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card{
+    background-color: antiquewhite;
+    border:1px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius:10px ;
+    transition: 0.7s;
+    margin: 20px;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+
+.project-image img{
+    width: 100%  ;
+}
+.project-info{
+    padding: 1em;
+}
+.project-catedory{
+    font-size: 0.8em;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top:10px ;
+}
+.more-details{
+    text-decoration: none;
+    color:rgb(14, 233, 14);
+    transition:0.7s;
+}
+.more-details:hover{
+    color:rgb(6, 109, 6);
+}
+
+.contact .icon{
+    font-size: 4.5em;
+}
+.contact .info h3{
+    color:black;
+}
+.contact .info p{
+    font-size: 1.5em;
+}
+.footer{
+    background-color:black;
+    color:white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer p{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footer span{
+    color: aqua;
+    text-transform: capitalize;
+}
+footer .social-icons{
+    font-size: 1em;
+    padding: 0 12 0 0;
+}
+@media (max-width:1023px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    
+    /* Header Styles */
+    header{
+        background-color: gray;
+        width:100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        padding:10px 20px; /* Adjusted padding for smaller screens */
+        align-items: center;
+    }
+    
+    /* Logo Styles */
+    .logo{
+        text-decoration: none;
+        color:rgb(14, 233, 14);
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 1.2em; /* Adjusted font size for smaller screens */
+        padding: 0 10px; /* Adjusted padding for smaller screens */
+    }
+    
+    /* Navigation Styles */
+    .n a{
+        text-decoration: none;
+        color:rgb(14, 233, 14);
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 1em; /* Adjusted font size for smaller screens */
+        padding: 0 10px; /* Adjusted padding for smaller screens */
+    }
+    
+    /* Section Styles */
+    section{
+        padding: 80px 20px; /* Adjusted padding for smaller screens */
+    }
+    
+    /* Main Section Styles */
+    .main h2, .main h3{
+        font-size: 1.2em; /* Adjusted font size for smaller screens */
+    }
+    
+    .main h2 span{
+        font-size: 2em; /* Adjusted font size for smaller screens */
+    }
+    
+    .main-btn{
+        font-size: 1em; /* Adjusted font size for smaller screens */
+        padding: 8px 20px; /* Adjusted padding for smaller screens */
+    }
+    
+    /* Card Styles */
+    .card{
+        width: 100%; /* Make cards occupy full width on smaller screens */
+    }
+    
+    /* Project Card Styles */
+    .project-card{
+        width: calc(100% - 40px); /* Adjusted width for smaller screens */
+        margin: 10px 0; /* Adjusted margin for smaller screens */
+    }
+    
+    /* Footer Styles */
+    .footer{
+        padding: 1em 10px; /* Adjusted padding for smaller screens */
+    }
+    
+    .footer p{
+        font-size: 1em; /* Adjusted font size for smaller screens */
+    }
+    
+    /* Social Icons Styles */
+    .social-icons a{
+        font-size: 1.5em; /* Adjusted font size for smaller screens */
+        padding: 0 10px; /* Adjusted padding for smaller screens */
+    }
+    
+}

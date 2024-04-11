@@ -21,6 +21,8 @@ a{
     background-image:linear-gradient(to right, rgba(46, 41, 17, 0.387) 30%, rgba(255, 166, 0, 0.288)),url(bleach.jpg) ;
     background-size: cover;
     height: 90%;
+    background-position: center;
+
 }
 .container:hover{
 

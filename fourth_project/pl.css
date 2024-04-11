@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+body{
+    background-color: #001;
+    display: flex;
+}
+.menu{
+    background-color: #123;
+    width:260px;
+    height: 100vh;
+    padding:20px;
+}
+.img-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid whitesmoke;
+}
+
+.img-box img{
+    width: 100%;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap :20px;
+}
+.profile h2{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+    position: relative;
+    height: 95%;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    
+    padding:10px;
+    margin: 10px 0;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap:40px;
+    transition: 1s;
+
+}
+ul li a:hover,.active, .box:hover,td:hover{
+    background-color: #ffffff55;
+}
+.log-out{
+   
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.log-out a{
+    background-color: #a00;
+}
+li i{
+    font-size: 30px;
+}
+.content{
+    width: 100%;
+    margin: 15px;
+
+}
+.title-info{
+    display: flex;
+    background-color: #0481ff;
+    justify-content: space-between;
+    border-radius:30px;
+    margin: 20px;
+}
+.title-info p{
+    padding: 10px;
+    font-size:20px;
+    font-weight: 700;
+}
+.title-info i{
+    padding: 10px;
+    font-size:20px;
+    font-weight: 700;
+}
+.data-info{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:10px
+}
+
+.box{
+    background-color: #123;
+    height: 150px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: 1s;
+}
+.box i{
+    font-size: 40px;   
+}
+.data{
+    text-align: center;
+}
+.data span{
+    font-size: 30px;
+}
+table{
+    width:100%;
+    text-align: center;
+    border-spacing: 8px;
+}
+td,th{
+    background-color: #123;
+    border-radius: 9px;
+    height: 40px;
+}
+th{
+    background-color: #0481ff;
+}
+.price,.count{
+    background-color: green;
+    padding: 6px;
+    border-radius: 6px;
+}
+.count{
+    background-color: gold;
+    color:black;
+}
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    .menu {
+        width: 100%;
+        height: 100%;
+    }
+    .title-info, .box {
+        margin: 10px;
+    }
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+}
